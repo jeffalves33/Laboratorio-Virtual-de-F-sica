@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="container-fluid">
         <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
         <!-- Adicione aqui o conteúdo do rodapé, como links, informações de contato, etc. -->
     </div>

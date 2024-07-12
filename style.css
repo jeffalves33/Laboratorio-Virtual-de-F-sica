@@ -7,8 +7,10 @@ Version: 1.0
 
 /* Estilos personalizados podem ser adicionados aqui */
 body {
-    background-color: #212529;
-    color: white;
+    /*background-color: #212529;
+    color: white;*/
+    background-color: white;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,9 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .strong-text1 {
-    color: #6EA8FE;
+    /*color: #6EA8FE;*/
+    color: #3e8bff;
 }
 .strong-text2 {
-    color: #75b798;
+    /*color: #75b798;*/
+    color: #26b874;
 }
 

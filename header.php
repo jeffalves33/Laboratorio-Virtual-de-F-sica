@@ -14,41 +14,33 @@
 
 <body <?php body_class(); ?>>
     <!-- Navbar -->
-    <div class="container">
-        <header class="border-bottom lh-1 py-3">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-4 pt-1">
-                </div>
-                <div class="col-4 text-center">
-                    <a class="blog-header-logo text-decoration-none h2" href="https://labvirtual.fisica.ufes.br">Física
-                        Virtual</a>
-                </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
-                </div>
-            </div>
-        </header>
-
-        <div class="nav-scroller py-1 mb-3 border-bottom">
-    <nav class="nav justify-content-between">
-        <a class="nav-item nav-link link-body-emphasis text-light d-flex flex-column align-items-center" href="<?php echo home_url('/simulacoes'); ?>" style="width: 70px; height: 100px; padding: 0px;">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/simulacoes_black.png" class="w-100" alt="simulações" style="max-height: 80px;">
-            <p class="text-center"  style="width: 97px;">Simulações</p>
-        </a>
-        <a class="nav-item nav-link link-body-emphasis text-light d-flex flex-column align-items-center" href="<?php echo home_url('/solucionador'); ?>" style="width: 70px; height: 100px; padding: 0px;">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/solucionador_black.png" class="w-100" alt="solucionador" style="max-height: 80px;">
-            <p class="text-center"  style="width: 97px;">Solucionador</p>
-        </a>
-        <a class="nav-item nav-link link-body-emphasis text-light d-flex flex-column align-items-center" href="<?php echo home_url('/aprenda-aqui'); ?>" style="width: 70px; height: 100px; padding: 0px;">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/aprendaAqui_black.png" class="w-100" alt="aprenda aqui" style="max-height: 80px;">
-            <p class="text-center"  style="width: 97px;">Aprenda aqui</p>
-        </a>
-        <a class="nav-item nav-link link-body-emphasis text-light d-flex flex-column align-items-center" href="<?php echo home_url('/contatos'); ?>" style="width: 70px; height: 100px; padding: 0px;">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/contatos_black.png" class="w-100" alt="contatos" style="max-height: 80px;">
-            <p class="text-center" style="width: 97px;">Contatos</p>
-        </a>
-    </nav>
-</div>
-
+    <div class="container-fluid">
+        <div class="nav-scroller px-5 mb-3 border-bottom">
+            <nav class="nav justify-content-between py-2">
+                <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
+                    href="<?php echo home_url('/simulacoes'); ?>" style="width: 70px; padding: 0px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/simulacoes.png" class="w-75"
+                        alt="Experimentos">
+                    <p class="text-center" style="width: 97px; margin: 0">Experimentos</p>
+                </a>
+                <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
+                    href="<?php echo home_url('/solucionador'); ?>" style="width: 70px; padding: 0px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/solucionador.png" class="w-75"
+                        alt="Simuladores">
+                    <p class="text-center" style="width: 97px; margin: 0">Simuladores</p>
+                </a>
+                <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
+                    href="<?php echo home_url('/aprenda-aqui'); ?>" style="width: 70px;padding: 0px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/aprendaAqui.png" class="w-75" alt="Blog">
+                    <p class="text-center" style="width: 97px; margin: 0">Blog</p>
+                </a>
+                <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
+                    href="<?php echo home_url('/contatos'); ?>" style="width: 70px; padding: 0px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/contatos.png" class="w-75" alt="Contatos">
+                    <p class="text-center" style="width: 97px; margin: 0;">Contatos</p>
+                </a>
+            </nav>
+        </div>
     </div>
 
     <?php wp_footer(); ?>
