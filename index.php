@@ -5,8 +5,12 @@ get_header();
 
 <!-- Conteúdo principal -->
 <main class="container-fluid">
-    <div class="p-4 p-md-5 mb-4 rounded fundoImagem shadow">
-        <div class="col-lg-6 px-0">
+    <div class="row py-5 px-2 mb-4 rounded fundoImagem shadow d-flex align-items-center">
+        <div class="col-lg-2 p-0">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logoLVF.jpg" class="d-block w-75"
+                alt="experimento_teste">
+        </div>
+        <div class="col-lg-10 p-0">
             <h1 class="display-4 fst-italic">Física Virtual</h1>
             <p class="lead my-3">Bem-vindo ao portal de Física Experimental, destinado aos alunos e professores da
                 disciplina.</p>
@@ -59,38 +63,38 @@ get_header();
 
     <div class="row g-5">
         <div class="col-md-8">
-            <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                Documentação
+            <h3 class="pb-1 mb-3 fst-italic border-bottom">
+                Apostilas
             </h3>
-            <div class="accordion" id="accordionExample">
+            <div class="accordion" id="accordionApostilas">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
-                            Apostilas
+                            data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            Licenciatura em Física
                         </button>
                     </h2>
-                    <div id="collapseThree1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionApostilas">
                         <div class="accordion-body">
                             <ul class="list-group">
                                 <li class="list-group-item border-0">
-                                    <p class="m-0"><a href="#"
-                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Apostila1</a>
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/fisica_experimental_i_licenciatura_fisica_2018_1.pdf"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Física Experimental I</a>
                                     </p>
                                 </li>
                                 <li class="list-group-item border-0">
-                                    <p class="m-0"><a href="#"
-                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Apostila2</a>
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/fisica_experimenta_ii_licenciatura_fisica_2020.pdf"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Física Experimental II</a>
                                     </p>
                                 </li>
                                 <li class="list-group-item border-0">
-                                    <p class="m-0"><a href="#"
-                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Apostila3</a>
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/fisica_experimental_iii_licenciatura_fisica_2019_0.pdf"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Física Experimental III</a>
                                     </p>
                                 </li>
                                 <li class="list-group-item border-0">
-                                    <p class="m-0"><a href="#"
-                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Apostila4</a>
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/F%C3%ADsica%20Experimental%20IV_licenciatura_F%C3%ADsica.pdf#overlay-context=laborat%25C3%25B3rio-de-f%25C3%25ADsica"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Física Experimental VI</a>
                                     </p>
                                 </li>
                             </ul>
@@ -100,69 +104,33 @@ get_header();
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Introdução à Física Experimental
+                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            Física Moderna
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionApostilas">
                         <div class="accordion-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Método Científico</li>
-                                <li class="list-group-item">Segurança no Laboratório</li>
-                                <li class="list-group-item">Erros e Incertezas</li>
-                                <li class="list-group-item">Equipamentos de Medição</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Cinemática
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Medição de Tempo e Velocidade</li>
-                                <li class="list-group-item">Experimentos com Movimento Retilíneo Uniforme</li>
-                                <li class="list-group-item">Experimentos com Movimento Acelerado</li>
-                                <li class="list-group-item">Equipamentos de Medição</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Dinâmica
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Leis de Newton</li>
-                                <li class="list-group-item">Força, Massa e Aceleração</li>
-                                <li class="list-group-item">Experimentos com Atrito</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Estática e Equilíbrio
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Condições de Equilíbrio</li>
-                                <li class="list-group-item">Centro de Massa</li>
-                                <li class="list-group-item">Experimentos com Alavancas e Polias</li>
+                            <ul class="list-group">
+                                <li class="list-group-item border-0">
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/interferometro_de_precisao.pdf"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Interferômetro</a>
+                                    </p>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/efeito_fotoeletrico.pdf"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Efeito Fotoelétrico</a>
+                                    </p>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/millikan_1.pdf"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Millikan</a>
+                                    </p>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <p class="m-0"><a href="https://cienciasnaturais.saomateus.ufes.br/sites/cienciasnaturais.saomateus.ufes.br/files/field/anexo/polarizacao_da_luz.pdf"
+                                            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Polarização da Luz</a>
+                                    </p>
+                                </li>
                             </ul>
                         </div>
                     </div>
