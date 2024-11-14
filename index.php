@@ -7,54 +7,60 @@ get_header();
 <main class="container-fluid">
     <div class="row py-5 px-2 mb-4 rounded fundoImagem shadow d-flex align-items-center">
         <div class="col-lg-2 p-0">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logoLVF.jpg" class="d-block w-75"
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="d-block w-75"
                 alt="experimento_teste">
         </div>
         <div class="col-lg-10 p-0">
             <h1 class="display-4 fst-italic">Física Virtual</h1>
-            <p class="lead my-3">Bem-vindo ao portal de Física Experimental, destinado aos alunos e professores da
-                disciplina.</p>
+            <p class="lead my-3">
+                Bem vindos ao Laboratório Virtual de Física do Centro Universitário Norte do Espírito 
+                Santo. Aqui encontrarão informações sobre os laboratórios de Física, vídeos de experimentos 
+                com análise de dados, nossos contatos, entre outras informações. Este site é o resultado de 
+                um projeto de ensino voltado para auxiliar as aulas de Física Experimental do CEUNES/UFES. 
+                Os materiais aqui disponibilizados não devem ser utilizados para substituir as atividades 
+                experimentais realizadas em sala de aula.
+            </p>
         </div>
     </div>
 
     <div class="row mb-2">
-        <div class="col-md-6 d-flex">
+        <div class="col-md-6">
             <div
                 class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-body-secondary">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 strong-text1">último vídeo</strong>
-                    <h3 class="mb-0">Leis de Newton</h3>
-                    <div class="mb-1 text-secondary">Abr 24</div>
-                    <p class="card-text mb-auto">As leis de Newton descrevem o movimento dos corpos e fundamentam a
-                        física clássica.</p>
-                    <a href="https://www.youtube.com/watch?v=1Yh3V87IAjc"
+                    <h3 class="mb-0">Coeficiente de Atrito Estático</h3>
+                    <div class="mb-1 text-secondary">Set 16</div>
+                    <p class="card-text mb-auto">Neste vídeo tratamos do experimento de Coeficiente de atrito estático.
+                    </p>
+                    <a href="https://youtu.be/wX_FBcJCB9g?si=AZEZEO2wnwyOhx_j"
                         class="icon-link gap-1 icon-link-hover stretched-link">
                         Continue assistindo
                     </a>
                 </div>
                 <div class="ratio ratio-21x9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1Yh3V87IAjc?si=HI6m5U9NOmSAmqTQ"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zeWTHViCpss?si=_7OOUHsKKOxP2TLB"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
-        <div class="col-md-6 d-flex">
+        <div class="col-md-6">
             <div
                 class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-body-secondary">
                 <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 strong-text2">último experimento</strong>
-                    <h3 class="mb-0">Gerador termoelétrico</h3>
-                    <div class="mb-1 text-secondary">Abr 24</div>
-                    <p class="mb-auto">Demonstrado o efeito Peltier, observado em 1834 por Jean Charles Athanase
-                        Peltier.</p>
-                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                        Continue assistindo
+                    <strong class="d-inline-block mb-2 strong-text2">página de simuladores</strong>
+                    <h3 class="mb-0">Simulações</h3>
+                    <div class="mb-1 text-secondary">Nov 14</div>
+                    <p class="mb-auto">Acesse nossa página de simulações e tenha uma ótima experiência aprendendo.</p>
+                    <a href="<?php echo home_url('/simulacoes'); ?>" class="icon-link gap-1 icon-link-hover stretched-link">
+                        Ir para página
                     </a>
                 </div>
                 <div class="col-auto d-none d-lg-block">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/experimento_teste.png"
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/experimento.png"
                         class="d-block w-100" alt="experimento_teste">
                 </div>
             </div>
@@ -64,17 +70,74 @@ get_header();
     <div class="row g-5">
         <div class="col-md-8">
             <h3 class="pb-1 mb-3 fst-italic border-bottom">
+                Laboratorios
+            </h3>
+            <div class="accordion" id="accordionLaboratorios">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse1L" aria-expanded="false" aria-controls="collapse1L">
+                            Laboratório de Mecânica e Termodinâmica
+                        </button>
+                    </h2>
+                    <div id="collapse1L" class="accordion-collapse collapse" data-bs-parent="#accordionLaboratorios">
+                        <div class="accordion-body">
+                            Experimentos realizados presencialmente neste laboratório: Movimento Retilíneo Uniforme e 
+                            Uniformemente Variado, Lançamento Horizontal, Colisões, Coeficiente de atrito estático, 
+                            Equilíbrio estático de forças, lei de Boyle-Mariote, lei de Gay-lussac, dilatação térmica, condução 
+                            de calor em metais, entre outros experimentos que podem ser encontrados nas apostilas. (Apostila I e II)
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse2L" aria-expanded="false" aria-controls="collapse2L">
+                            Laboratório de Eletromagnetismo
+                        </button>
+                    </h2>
+                    <div id="collapse2L" class="accordion-collapse collapse" data-bs-parent="#accordionLaboratorios">
+                        <div class="accordion-body">
+                            Experimentos realizados presencialmente neste laboratório: Circuitos elétricos de corrente 
+                            alternada com capacitor, resistor e indutor, circuitos elétricos de corrente contínua carregando 
+                            um capacitor ou estudando a lei de Ohm, transformadores e a indução, entre outros 
+                            experimentos. (Apostila III)
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse3L" aria-expanded="false" aria-controls="collapse3L">
+                            Laboratório de Instrumentação e Prática para o Ensino de Física e Física Moderna
+                        </button>
+                    </h2>
+                    <div id="collapse3L" class="accordion-collapse collapse" data-bs-parent="#accordionLaboratorios">
+                        <div class="accordion-body">
+                            Experimentos realizados presencialmente neste laboratório: obtêm-se a divisão entre o valor da 
+                            carga do elétron e a massa do mesmo (experimento razão carga massa), experimentos de 
+                            polarização da luz, difração, refração, dispersão, entre outros. Este laboratório também é 
+                            utilizado na confecção de experimentos e construção de instrumentos para auxiliar no ensino 
+                            de Física. (Apostila IV)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <h3 class="pb-1 mb-3 fst-italic border-bottom">
                 Apostilas
             </h3>
             <div class="accordion" id="accordionApostilas">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            data-bs-target="#collapse1A" aria-expanded="false" aria-controls="collapse1A">
                             Licenciatura em Física
                         </button>
                     </h2>
-                    <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionApostilas">
+                    <div id="collapse1A" class="accordion-collapse collapse" data-bs-parent="#accordionApostilas">
                         <div class="accordion-body">
                             <ul class="list-group">
                                 <li class="list-group-item border-0">
@@ -104,11 +167,11 @@ get_header();
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            data-bs-target="#collapse2A" aria-expanded="false" aria-controls="collapse2A">
                             Física Moderna
                         </button>
                     </h2>
-                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionApostilas">
+                    <div id="collapse2A" class="accordion-collapse collapse" data-bs-parent="#accordionApostilas">
                         <div class="accordion-body">
                             <ul class="list-group">
                                 <li class="list-group-item border-0">
@@ -136,8 +199,6 @@ get_header();
                     </div>
                 </div>
             </div>
-
-
         </div>
 
         <div class="col-md-4">
@@ -147,7 +208,7 @@ get_header();
                         alt="ceunes">
                 </div>
 
-                <div class="mt-4">
+                <!--<div class="mt-4">
                     <h4 class="fst-italic">Criadores</h4>
                     <ul class="list-unstyled">
                         <li>
@@ -184,7 +245,7 @@ get_header();
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

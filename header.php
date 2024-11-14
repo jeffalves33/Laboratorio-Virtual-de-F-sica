@@ -14,14 +14,20 @@
 
 <body <?php body_class(); ?>>
     <!-- Navbar -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-body-tertiary">
         <div class="nav-scroller px-5 mb-3 border-bottom">
             <nav class="nav justify-content-between py-2">
+                <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
+                    href="<?php echo home_url('/'); ?>" style="width: 70px; padding: 0px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="w-75"
+                        alt="Experimentos">
+                    <p class="text-center" style="width: 97px; margin: 0">Home</p>
+                </a>
                 <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
                     href="<?php echo home_url('/simulacoes'); ?>" style="width: 70px; padding: 0px;">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/simulacoes.png" class="w-75"
                         alt="Experimentos">
-                    <p class="text-center" style="width: 97px; margin: 0">Experimentos</p>
+                    <p class="text-center" style="width: 97px; margin: 0">Vídeos</p>
                 </a>
                 <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
                     href="<?php echo home_url('/solucionador'); ?>" style="width: 70px; padding: 0px;">
@@ -32,7 +38,7 @@
                 <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
                     href="<?php echo home_url('/aprenda-aqui'); ?>" style="width: 70px;padding: 0px;">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/aprendaAqui.png" class="w-75" alt="Blog">
-                    <p class="text-center" style="width: 97px; margin: 0">Blog</p>
+                    <p class="text-center" style="width: 97px; margin: 0">Referências</p>
                 </a>
                 <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
                     href="<?php echo home_url('/contatos'); ?>" style="width: 70px; padding: 0px;">
