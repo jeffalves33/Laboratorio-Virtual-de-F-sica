@@ -19,7 +19,7 @@
             <nav class="nav justify-content-between py-2">
                 <a class="nav-item nav-link text-dark d-flex flex-column align-items-center"
                     href="<?php echo home_url('/'); ?>" style="width: 70px; padding: 0px;">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="w-75"
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo_black.png" class="w-75"
                         alt="Experimentos">
                     <p class="text-center" style="width: 97px; margin: 0">Home</p>
                 </a>

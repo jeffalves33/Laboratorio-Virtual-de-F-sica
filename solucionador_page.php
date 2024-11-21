@@ -50,4 +50,8 @@ get_header();
          </a>
       </div>
    </div>
+   <!-- Footer -->
+   <footer class="text-center mt-5 py-3 bg-light">
+      <p class="mb-0">As simulações apresentados nesta página pertencem ao projeto <a href="https://phet.colorado.edu" target="_blank">PhET Interactive Simulations</a>. Todos os direitos reservados.</p>
+   </footer>
 </div>

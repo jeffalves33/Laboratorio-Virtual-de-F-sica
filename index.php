@@ -7,7 +7,7 @@ get_header();
 <main class="container-fluid">
     <div class="row py-5 px-2 mb-4 rounded fundoImagem shadow d-flex align-items-center">
         <div class="col-lg-2 p-0">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="d-block w-75"
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo_white.png" class="d-block w-75"
                 alt="experimento_teste">
         </div>
         <div class="col-lg-10 p-0">
