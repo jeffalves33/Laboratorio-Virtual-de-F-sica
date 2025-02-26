@@ -6,11 +6,11 @@ get_header();
 <!-- Conteúdo principal -->
 <main class="container-fluid">
     <div class="row py-5 px-2 mb-4 rounded fundoImagem shadow d-flex align-items-center">
-        <div class="col-lg-2 p-0">
+        <div class="col-lg-3 p-0">
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo_white.png" class="d-block w-75"
                 alt="experimento_teste">
         </div>
-        <div class="col-lg-10 p-0">
+        <div class="col-lg-9 p-0">
             <h1 class="display-4 fst-italic">Física Virtual</h1>
             <p class="lead my-3">
                 Bem vindos ao Laboratório Virtual de Física do Centro Universitário Norte do Espírito 
@@ -55,7 +55,7 @@ get_header();
                     <h3 class="mb-0">Simulações</h3>
                     <div class="mb-1 text-secondary">Nov 14</div>
                     <p class="mb-auto">Acesse nossa página de simulações e tenha uma ótima experiência aprendendo.</p>
-                    <a href="<?php echo home_url('/simulacoes'); ?>" class="icon-link gap-1 icon-link-hover stretched-link">
+                    <a href="<?php echo home_url('/solucionador'); ?>" class="icon-link gap-1 icon-link-hover stretched-link">
                         Ir para página
                     </a>
                 </div>

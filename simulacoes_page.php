@@ -21,14 +21,14 @@ get_header();
                         <div class="card shadow-sm bg-transparent border bg-body-secondary" style="height: 335px">
                             <div class="ratio border ratio-16x9">
                                 <iframe width="359" height="225"
-                                    src="https://www.youtube.com/embed/2OdxgAGiN-E?si=edhfNydHSfn72CO5"
+                                    src="https://youtu.be/X0RTeqpAK9s?si=WN2o57l04ZD_hRm5"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                                 </iframe>
                             </div>
                             <div class="card-body d-flex flex-column">
-                                <p class="card-text text-body-emphasis">Equilíbrio de Forças</p>
+                                <p class="card-text text-body-emphasis">Equilíbrio Estático de Forças</p>
                                 <div class="d-flex justify-content-between align-items-center mt-auto">
                                     <a href="https://www.youtube.com/watch?v=2OdxgAGiN-E" class="btn btn-primary">Acessar</a>
                                     <small class="text-secondary">35 min</small>
