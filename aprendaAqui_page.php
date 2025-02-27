@@ -13,4 +13,8 @@ get_header();
         </ol>
     </nav>
     <iframe src="https://fep.if.usp.br/~profis/recursos_virtuais.html" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+    <!-- Footer -->
+   <footer class="text-center mt-5 py-3 bg-light">
+      <p class="mb-0">O conteúdo exibido é de autoria do <a href="https://fep.if.usp.br/~profis/" target="_blank">PROFIS</a>. Todos os direitos reservados.</p>
+   </footer>
 </div>
